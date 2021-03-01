@@ -1,0 +1,50 @@
+n00_
+rae.ugr
+n0012_iso
+n0012_surf
+n0012_conv
+solin
+solout
+500		  # Original Point Distribution Cutoff for Cp
+ 0		  # Read GMSH.msh and convert to UGR format
+ E        # E=external flow, I=internal flow
+ E        # E=Euler (inviscid) / N=Navier-Stokes (laminar)
+ 1.4      # ratio of specific heats
+ 1004.5   # specific heat coeff. at constant pressure [J/kgK]
+ 5000.    # Reynolds number
+ 0.0      # reference velocity (internal flow only) [m/s]
+ 0.0      # reference density (internal flow only) [kg/m^3]
+ 0.72     # laminar Prandtl number
+0.5d0          !  Mach-number at infinity
+3.0d0           !  angle of attack [deg]
+ 1.E+5     # static pressure at infinity [Pa]
+ 288.0     # static temperature at infinity [K]
+ 0.0       # total pressure at inlet [Pa]
+ 0.0       # total temperature at inlet [K]
+ 0.0       # flow angle at inlet (with x-axis) [deg]
+ 0.0       # static pressure at outlet [Pa]
+ 0.0       # approximate flow angle at outlet (with x-axis) [deg]
+ 1.0       # approximate ratio of inlet to outlet static pressure
+ 0.25      # x-coordinate of reference point (moment coefficient) [m]
+ 0.0       # y-coordinate              - '' -                     [m]
+ 1.0       # reference or cord length [m]
+ 999999        # max. number of iterations
+ 100       # number of iterations between solution dumps
+ 1000		   # output vtk in solution dump
+ 1.0E-6    # convergence tolerance
+ N         # use previous solution for restart (Y=yes, N=no)
+ 4.0       # CFL-number
+ 0.0       # coefficient of implicit residual smoothing (<0 = no smoothing)
+ 0         # no. of Jacobi iterations for residual smoothing
+ L         # L=local, G=global time-stepping
+ N         # low Mach-number preconditioning (Y=yes, N=no)
+ 0.15      # preconditioning parameter K
+ 1		   # iflux
+ 2         # first-order (1) / second-order (2) Roe scheme
+ 10.0       # limiter coefficient (used only for 2nd-order Roe scheme)
+ 0.0001      # entropy correction coefficient
+ N         # correction of far-field due to single vortex (Y/N - external flow)
+ 5         # number of stages
+ 0.0695, 0.1602, 0.2898, 0.5060, 1.000    # stage coefficients (Roe scheme)
+ 1.00  , 1.00  , 1.00  , 1.00  , 1.00     # dissipation blending coeff.
+ 1     , 1     , 1     , 1     , 1        # dissipation evaluation (1=yes)

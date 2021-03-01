@@ -1,0 +1,247 @@
+{
+  "Root":{
+    "Folders":[],
+    "Name":"+uns2d (target)",
+    "Files":[{
+        "filename":".\\src\\allocateMemory.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\ausm.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\bcondFarfield.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\bcondInflow.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\bcondOutflow.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\bcondWallns.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\boundaryConditions.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\checkMetrics.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\convergence.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\cusp.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\dependentVars.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\dissipRoe1.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\dissipRoe1Prec.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\dissipRoe2.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\dissipRoe2Prec.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\dummyNodes.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\edgesFinalize.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\edgesInitialize.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\error.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\faceVectorsSymm.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\feid.dat",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\fluxRoe1.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\fluxRoe2.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\fluxViscous.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\fluxWalls.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\forces.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\gmshtougr.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\gradients.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\gradientsVisc.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\initConstants.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\initMetrics.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\initMetricsBound.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\initSolution.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\input.dat",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\irsmoo.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\limiter.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\limiterInit.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\limiterRefvals.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\main.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\massflow.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\modControl.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\modDataTypes.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\modFiles.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\modGeometry.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\modInterfaces.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\modNumerics.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\modPhysics.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\modPlotQuant.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\output_vtk.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\periodic.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\plotSurfaces.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\precondMatrices.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\printParams.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\readChar.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\readGrid.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\readParams.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\readSolution.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\slau.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\solver.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\timeStep.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\volumeProjections.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\writeSolution.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\zeroResiduals.f90",
+        "enabled":"1"
+      }]
+  },
+  "Name":"uns2d (target)",
+  "Options":{
+    "Compiler Options":{
+      "Fortran Flags":"",
+      "Link Flags":"",
+      "C Flags":""
+    },
+    "Architecture":0,
+    "Type":0,
+    "Revision":2,
+    "Windows GUI":0,
+    "File Options":{
+      "Library Directories":["Default Library Directory"],
+      "Build Directory":"build",
+      "Module Directory":"modules",
+      "Include Directories":["Default Include Directory"]
+    },
+    "Target":"target",
+    "Fortran Options":{
+      "Use C Preprocessor":"false",
+      "Runtime Diagnostics":"false",
+      "Cray Pointers":"false",
+      "Enable OpenMP":"false",
+      "Enable Coarrays":"false",
+      "Default Double for Real":"false"
+    },
+    "Code Generation Options":{
+      "CPU Specific":"false",
+      "Processor":"generic",
+      "Aggressive Loops":"false",
+      "Debugging":"true",
+      "Optimization Mode":0,
+      "Profiling":"false"
+    },
+    "Build Dependencies":1,
+    "Launch Options":{
+      "Working Directory":"",
+      "Keep Console":"true",
+      "External Console":"false",
+      "Command Line Arguments":"",
+      "Build Before Launch":"true"
+    },
+    "Build Options":{
+      "Makefile":"Makefile",
+      "Auto Makefile":"true"
+    },
+    "Linker Options":{
+      "Static Linking Mode":7,
+      "Link LAPACK":0
+    }
+  }
+}
